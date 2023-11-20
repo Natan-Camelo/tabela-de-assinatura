@@ -1,0 +1,42 @@
+@media (min-width: 2560px) {
+    .titulo {
+        max-height: 10vh;
+    }
+}
+
+@media (min-width: 1440px) {
+    .titulo {
+        max-height: 60vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo h1 {
+        margin-top: 5vh;
+        font-size: 26px;
+    }
+
+    .titulo p {
+        font-size: 14px;
+    }
+
+    main .free {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 412px) {
+    .free,
+    .basico,
+    .premium {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 320px) {
+    .free,
+    .basico,
+    .premium {
+        max-width: 300px;
+    }
+}
